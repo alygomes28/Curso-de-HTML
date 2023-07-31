@@ -1,0 +1,137 @@
+@metacharset utf-8;
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 10px;
+    
+    
+}
+
+header h1{
+    color: rgb(0, 0, 0);
+}
+header nav{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    margin: -10px;
+    
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-right: 30px;
+
+}
+
+header nav a:hover{
+    text-decoration: dashed;
+    color: red;
+
+}
+
+main{
+    background-color: aliceblue;
+    margin: 10px;
+}
+
+#artigos{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 0 10px 0 10px;
+    box-shadow: 1px 2px 2px black;
+    
+}
+
+#artigos > p{
+    
+}
+#artigos > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+#artigos > p > a:hover{
+    text-decoration: dashed;
+    color: red;
+
+}
+
+#noticias{
+    background-color: rgb(255, 255, 254);
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    border: 1px solid black;
+    border-radius: 0 10px 0 10px;
+    
+}
+
+#noticias > h2{
+    
+}
+
+#noticias > aside{
+    background-color: gray;
+    padding: 03px;
+    margin: 03px;
+    font-size: 12px;
+    border-radius: 05px;
+}
+
+#palmeiras{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+#palmeiras img{
+    border: 1px solid black;
+    margin: 5px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#palmeiras p{
+    text-align: center;
+    
+    
+}
+
+#palmeiras > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+   
+}
+
+#palmeiras > p > a:hover{
+    text-decoration: dashed;
+    color: red;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 8px 8px 8px 8px;
+}
+
+
+
