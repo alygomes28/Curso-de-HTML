@@ -7,17 +7,25 @@
     <style>
         body{
             height: 100vh;
-            background-color: black;
-            background-image: url(Imagens/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: repeat-y ;
-            background-size: cover;
-            
+            /*
+            Shorthand - background
+            Color > image > position > repeat > attachment / size
+
+            A ordem shorthand completa da propriedade background no CSS, incluindo a background-size, é a seguinte:
+            background: [background-color] [background-image] [background-repeat] [background-attachment] [background-position] / [background-size] [background-origin] [background-clip];
+
+            perguntei: por que após o position é necessário colocar uma barra?
+
+
+            A barra (/) é usada para separar as propriedades de posicionamento (position) e tamanho (size) da imagem de fundo na ordem shorthand da propriedade background no CSS. Isso ajuda a evitar confusão entre as propriedades de tamanho e posicionamento da imagem de fundo.
+            */
+
+            background: black url(Imagens/wallpaper002.jpg) no-repeat fixed center center / cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
