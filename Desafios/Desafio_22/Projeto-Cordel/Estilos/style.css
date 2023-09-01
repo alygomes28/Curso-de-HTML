@@ -66,14 +66,24 @@ section{
 }
 
 section.normal{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
+
 
 }
 
 section.imagem{
-    background-color: rgb(36, 36, 36);
+    background-color: rgba(36, 36, 36, 0.514);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+section#img01{
+    background: black url(../Imagens/background001.jpg) no-repeat right center  / cover fixed;
+}
+
+section#img02{
+    background: black url(../Imagens/background002.jpg) no-repeat right center / cover fixed;
 }
 
 section.imagem > p{
