@@ -2,44 +2,68 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+
+/*Configuração de fonte e cor*/
 
 :root{
     --fonte_padrao: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte_cabeçalho: 'Work Sans', sans-serif;
+    --fonte_cabecalho: 'Work Sans', sans-serif;
     --fonte_corpo: 'Roboto', sans-serif;
 
+    --cor00: #ffffff;
     --cor01: #5CC9E6;
     --cor02: #9AFC97;
     --cor03: #F2E191;
     --cor04: #F57A6E;
     --cor05: #C797FC;
+    --cor06: #000000;
+
 
 }
+
+/*Configuração global*/
 
 *{
     padding: 0px;
     margin: 0px;
 }
 
+/*Configuração do Corpo do site*/
+
 body{
-    background-color: white;
+    background-color: var(--cor00);
     font-family: var(--fonte_padrao);
     
+    
 }
+
+/*Configuração do Cabeçalho do site e Menu*/
 
 header {
     background-color: var(--cor01);
     text-align: center;
-    padding: 15px;
+    font-family: var(--fonte_cabecalho)
+    
+   
+    
 }
 
 header h1 {
     color: white;
-    padding: 10px;
+    padding: 20px;
+    font-size: 2.5em;
+   
 }
 
-header a{
+nav{
+    padding: 15px;
+    font-size: 1.5em;
+    
+}
+
+nav a{
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -47,39 +71,73 @@ header a{
         
 }
 
-header a:hover{
+nav a:hover{
     background-color: var(--cor04);
+    border-radius: 10px;
+}
+
+/*Configuração do conteudo do site*/
+
+main{
+    min-width: 200px;
+    max-width: 1200px;
+    margin: auto;   
 }
 
 h2{
+    background-color: var(--cor03);
     padding: 20px;
-}
-
-main{
-    padding: 30px;
+    text-align: center;
+    font-family: var(--fonte_corpo);
 }
 
 section{
-    padding: 20px;
-    border: 2px solid black;
-    border-radius: 5px;
-    position: relative;
-    display: inline-block;
-    margin: auto;
-    width: 92vw;
-}
-
-div.material{
-    border: 1px solid black;
-    border-radius: 10px;
-    max-width: 150px;
-    text-align: center;
+   border: 3px solid var(--cor03);
+   border-radius: 0px 0px 10px 10px;
+   padding: 20px;
+   
+   
     
 }
 
-div.material:hover{
-    background-color: var(--cor02);
-    border: px solid black;
+div.material{
+    font-family: var(--fonte_corpo);
+    font-size: 1em;
+    line-height: 25px;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid var(--cor03);
     border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    
+
+
 }
+
+
+
+div.material:hover{
+    background-color: var(--cor03);
+}
+
+div.material a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+div.material a:hover{
+    text-decoration: dashed;
+    color: var(--cor0);
+}
+
+
+
+
 
