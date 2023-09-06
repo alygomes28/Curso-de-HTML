@@ -132,12 +132,13 @@ div.material{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 200px;
-    height: 50px;
+    width: 15vw;
+    height: 3vw;
     border: 2px solid var(--cor03);
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-right: 2px;
+    margin-left: 30px;
+    
     
     
     
@@ -187,8 +188,8 @@ section#javascript{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 300px;
-    height: 50px;
+    width: 20vw;
+    height: 02vw;
     border: 2px solid var(--cor05);
     border-radius: 10px;
     margin-bottom: 20px;
@@ -224,7 +225,7 @@ footer{
 footer img{
     width: 32px;
     height: 32px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 footer img.curso{
@@ -233,27 +234,3 @@ footer img.curso{
 }
 
 
-/* Media Query para telas menores (exemplo: smartphones) */
-@media screen and (max-width: 768px) {
-    header h1 {
-        font-size: 1.8em; /* Reduza o tamanho da fonte do cabeçalho */
-    }
-
-    nav {
-        font-size: 1.2em; /* Reduza o tamanho da fonte do menu */
-    }
-
-    div.material, div.m_js {
-        width: 100%; /* Faça as divs ocuparem toda a largura da tela */
-        margin-left: 0; /* Remova a margem esquerda */
-    }
-
-    main {
-        padding: 20px; /* Reduza o padding do conteúdo principal */
-    }
-}
-
-/* Media Query para telas maiores (exemplo: tablets e desktops) */
-@media screen and (min-width: 769px) {
-    /* Restaure os estilos originais para telas maiores, se necessário */
-}
