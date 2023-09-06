@@ -197,6 +197,7 @@ section#javascript{
     
     
     
+    
 }
 
 div.m_js:hover{
@@ -214,8 +215,45 @@ div.m_js a{
 
 footer{
     background-color: var(--cor01);
-    height: 80px;
     margin-top: 100px;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+}
+
+footer img{
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+}
+
+footer img.curso{
+    width: 150px;
+    height: 72px;
 }
 
 
+/* Media Query para telas menores (exemplo: smartphones) */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.8em; /* Reduza o tamanho da fonte do cabeçalho */
+    }
+
+    nav {
+        font-size: 1.2em; /* Reduza o tamanho da fonte do menu */
+    }
+
+    div.material, div.m_js {
+        width: 100%; /* Faça as divs ocuparem toda a largura da tela */
+        margin-left: 0; /* Remova a margem esquerda */
+    }
+
+    main {
+        padding: 20px; /* Reduza o padding do conteúdo principal */
+    }
+}
+
+/* Media Query para telas maiores (exemplo: tablets e desktops) */
+@media screen and (min-width: 769px) {
+    /* Restaure os estilos originais para telas maiores, se necessário */
+}
