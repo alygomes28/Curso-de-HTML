@@ -1,4 +1,8 @@
+/* Definição de Codificação e Importação de Fontes */
+
 @charset "utf-8";
+
+/* Importação de Fontes do Google */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
 
@@ -8,9 +12,14 @@
 /*Configuração de fonte e cor*/
 
 :root{
+
+    /*Configuração de fonte*/
+
     --fonte_padrao: Verdana, Geneva, Tahoma, sans-serif;
     --fonte_cabecalho: 'Work Sans', sans-serif;
     --fonte_corpo: 'Roboto', sans-serif;
+
+    /*Configuração de cor*/
 
     --cor00: #ffffff;
     --cor01: #5CC9E6;
@@ -20,7 +29,6 @@
     --cor05: #C797FC;
     --cor06: #000000;
 
-
 }
 
 /*Configuração global*/
@@ -28,6 +36,11 @@
 *{
     padding: 0px;
     margin: 0px;
+    
+}
+
+abbr{
+    text-decoration: none;
 }
 
 /*Configuração do Corpo do site*/
@@ -84,14 +97,11 @@ main{
     margin: auto;   
 }
 
-h2{
-    background-color: var(--cor03);
-    padding: 20px;
-    text-align: center;
-    font-family: var(--fonte_corpo);
-}
 
-section{
+
+/*Configuração Section HTML*/
+
+section#html {
    border: 3px solid var(--cor03);
    border-radius: 0px 0px 10px 10px;
    padding: 20px;
@@ -99,6 +109,17 @@ section{
    
     
 }
+
+h2.html{
+    background-color: var(--cor03);
+    padding: 20px;
+    text-align: center;
+    font-family: var(--fonte_corpo);
+    margin-top: 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/*Configuração das div's*/
 
 div.material{
     font-family: var(--fonte_corpo);
@@ -110,17 +131,14 @@ div.material{
     justify-content: space-evenly;
     width: 200px;
     height: 50px;
-    text-align: center;
     border: 2px solid var(--cor03);
     border-radius: 10px;
     margin-bottom: 20px;
     margin-right: 2px;
     
-
-
+    
+    
 }
-
-
 
 div.material:hover{
     background-color: var(--cor03);
@@ -129,15 +147,72 @@ div.material:hover{
 div.material a{
     text-decoration: none;
     color: black;
+       
+    
+    
     
 }
 
-div.material a:hover{
-    text-decoration: dashed;
-    color: var(--cor0);
+/*Configuração Section JavaScript */
+
+section#javascript{
+    margin-top: 100px;
+    border: 3px solid var(--cor05);
+    border-radius: 0px 0px 10px 10px;
+    border-radius: 10px 10px 0px 0px;
+    
+    
+    
+    
+     
+ }
+ 
+ h2.javascript{
+     background-color: var(--cor05);
+     padding: 20px;
+     text-align: center;
+     font-family: var(--fonte_corpo);
+     margin-bottom: 20px;
+     border-radius: 10px 10px 0px 0px;
+ }
+
+ div.m_js{
+    font-family: var(--fonte_corpo);
+    font-size: 1em;
+    line-height: 25px;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 200px;
+    height: 50px;
+    border: 2px solid var(--cor05);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 2px;
+    padding-right: 10px;
+    
+    
+    
 }
 
+div.m_js:hover{
+    background-color: var(--cor05);
+}
 
+div.m_js a{
+    text-decoration: none;
+    color: black;
+       
+    
+    
+    
+}
 
+footer{
+    background-color: var(--cor01);
+    height: 80px;
+    margin-top: 100px;
+}
 
 
