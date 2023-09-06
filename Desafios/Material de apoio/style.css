@@ -187,12 +187,12 @@ section#javascript{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 200px;
+    width: 300px;
     height: 50px;
     border: 2px solid var(--cor05);
     border-radius: 10px;
     margin-bottom: 20px;
-    margin-left: 10px;
+    margin-left: 50px;
     
     
     
