@@ -133,7 +133,7 @@ div.material{
     flex-direction: row;
     justify-content: space-evenly;
     width: 15vw;
-    height: 3vw;
+    height: 2.2vw;
     border: 2px solid var(--cor03);
     border-radius: 10px;
     margin-bottom: 20px;
@@ -166,12 +166,8 @@ section#javascript{
     margin-top: 100px;
     border: 3px solid var(--cor05);
     border-radius: 0px 0px 10px 10px;
-    border-radius: 10px 10px 0px 0px;
-    
-    
-    
-    
-     
+    border-radius: 10px 10px 10px 10px;
+        
  }
  
  h2.javascript{
@@ -198,11 +194,6 @@ section#javascript{
     margin-bottom: 20px;
     margin-left: 50px;
     text-align: center;
-    
-    
-    
-    
-    
 }
 
 div.m_js:hover{
@@ -211,11 +202,7 @@ div.m_js:hover{
 
 div.m_js a{
     text-decoration: none;
-    color: black;
-       
-    
-    
-    
+    color: black;    
 }
 
 footer{
