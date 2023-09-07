@@ -126,8 +126,8 @@ h2.html{
 
 div.material{
     font-family: var(--fonte_corpo);
-    font-size: 1em;
-    line-height: 25px;
+    font-size: 0.8em;
+    line-height: 20px;
     padding: 10px;
     display: inline-flex;
     flex-direction: row;
@@ -138,6 +138,8 @@ div.material{
     border-radius: 10px;
     margin-bottom: 20px;
     margin-left: 30px;
+    
+
     
     
     
@@ -182,7 +184,7 @@ section#javascript{
 
  div.m_js{
     font-family: var(--fonte_corpo);
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 25px;
     padding: 10px;
     display: inline-flex;
