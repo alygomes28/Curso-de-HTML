@@ -1,0 +1,50 @@
+@charset "utf-8"
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    height: 30px;
+    margin: auto;
+    
+
+}
+
+th, tr, td{
+    border: 2px solid black;
+    padding: 5px;
+    font-weight: 5px;
+    
+        
+}
+
+th{
+    background-color: lightslategrey;
+}
+
+td.posicao{
+    text-align: center;
+}
+
+td.populacao, td.populacao2010{
+    text-align: right;
+}
+
+td.populacao{
+    background-color: lightblue;
+}
+
+td.populacao2010{
+    background-color: lightcoral;
+}
