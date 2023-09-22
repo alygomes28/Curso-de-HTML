@@ -11,6 +11,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD - (Cabeça)
                 Dentro da cabeça posso ter TR, TF, TH.
             TBODY - (Corpo)
@@ -20,12 +21,15 @@
     -->
 
     <table>
+
+        <caption>População das Unidades Federativas do Brasil</caption>
+
         <thead>
             <tr>
-                <th id="posicao">POSIÇÃO</th>
-                <th>ESTADO</th>
-                <th>POPULAÇÃO 2022</th>
-                <th>POPULAÇÃO 2010</th>
+                <th id="posicao" scope="col" style="width: 5px;">POSIÇÃO</th>
+                <th scope="col">ESTADO</th>
+                <th scope="col" style="width: 15px;">POPULAÇÃO 2022</th>
+                <th scope="col" style="width: 15px;">POPULAÇÃO 2010</th>
             </tr>
         </thead>
 
@@ -222,7 +226,7 @@
         </tbody>
 
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="populacao"><strong>203 062 512</strong></td>
         </tfoot>
     </table>

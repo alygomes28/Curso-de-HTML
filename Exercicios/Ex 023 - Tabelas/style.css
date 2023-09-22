@@ -11,6 +11,13 @@ body{
 
 }
 
+caption{
+    background-color: lightcyan;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 30px;
+}
+
 table{
     border: 2px solid black;
     border-collapse: collapse;
@@ -33,12 +40,17 @@ th{
     background-color: lightslategrey;
 }
 
+
+
 td.posicao{
     text-align: center;
+    
 }
 
 td.populacao, td.populacao2010{
     text-align: right;
+    
+    
 }
 
 td.populacao{
